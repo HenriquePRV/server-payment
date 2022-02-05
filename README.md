@@ -59,7 +59,7 @@ docker-compose exec php composer install
 docker-compose exec php cp .env.example .env
 ```
 
-### Configure a conexão com o bando de dados no seu .env
+### Configure a conexão com o banco de dados no seu .env
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=mysql
