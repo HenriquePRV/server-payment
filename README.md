@@ -81,7 +81,7 @@ docker-compose exec php php artisan migrate
 
 ### Popule o banco de dados para realizar transações
 ```bash
-docker-compose exec php php artisan db:seed UserSeeder
+docker-compose exec php php artisan db:seed DatabaseSeeder
 ```
 
 ### Execute os testes
